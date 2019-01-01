@@ -1,6 +1,5 @@
 # DigiBank
 
-Orientacoes
 
 Orientações para rodar o projeto.
 
