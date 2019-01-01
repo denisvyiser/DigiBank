@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.5.3" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="2.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="2.1.1" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DigiBank.Api\DigiBank.Api.ClientePerfil\DigiBank.Api.ClientePerfil.csproj" />
+    <ProjectReference Include="..\DigiBank.Api\DigiBank.Api.Cliente\DigiBank.Api.Cliente.csproj" />
+    <ProjectReference Include="..\DigiBank.Api\DigiBank.Api.ContaCorrente\DigiBank.Api.ContaCorrente.csproj" />
+    <ProjectReference Include="..\DigiBank.Api\DigiBank.Api.Login\DigiBank.Api.Login.csproj" />
+    <ProjectReference Include="..\DigiBank.Api\DigiBank.Api.OperacaoBancaria\DigiBank.Api.OperacaoBancaria.csproj" />
+    <ProjectReference Include="..\DigiBank.Api\DigiBank.Api.Perfil\DigiBank.Api.Perfil.csproj" />
+    <ProjectReference Include="..\DigiBank.Api\DigiBank.Api.Transacao\DigiBank.Api.Transacao.csproj" />
+  </ItemGroup>
+
+</Project>

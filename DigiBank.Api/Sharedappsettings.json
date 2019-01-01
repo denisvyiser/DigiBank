@@ -1,0 +1,19 @@
+{
+  "Application": {
+    "Version": "v2",
+    "VersionDescription": "1.1.0"
+  },
+  "TokenConfigurations": {
+    "Audience": "DigiBank",
+    "Issuer": "DigiBank Identity",
+    "Seconds": 1800
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "LogsDirectory": "C:/DigiEnv/Logs/",
+  "CertificateDirectory": "C:/DigiEnv/DigiBank.pfx"
+}
