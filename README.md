@@ -14,14 +14,14 @@ Dentro da pasta DigiEnv existem 3 arquivos.<br />
 
 
 Este projeto tem como proposta redução de código fonte, baixo acoplamento entre classes e delimitacao de responsabilidades entre camadas.
+<br />
+-Para redução de código foi aplicada herança de classes genéricas:<br />
+*Crud<br />
+*AutoMapper.<br />
+*Serviços da aplicação<br />
+*Controller, mas foi utilizada apenas na controller de cliente como exemplo.<br />
+*Projeto Unit Test.<br />
 
--Para redução de código foi aplicada herança de classes genéricas:
-*Crud
-*AutoMapper.
-*Serviços da aplicação
-*Controller, mas foi utilizada apenas na controller de cliente como exemplo.
-*Projeto Unit Test.
-
--A utilização de injeção além de manter baixo acoplamento entre as classes, facilita na criacao do modelo de testes.
+-A utilização de injeção além de manter baixo acoplamento entre as classes, facilita na criacao do modelo de testes.<br />
 
 -O projeto foi baseada na arquiteruta de camadas DDD com a finalidade de demilitar as responsabilidades entre camadas. 
