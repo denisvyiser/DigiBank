@@ -1,9 +1,9 @@
 1) EXPLIQUE COM SUAS PALAVRAS O QUE É DOMAIN DRIVEN DESIGN E SUA IMPORTÂNCIA NA ESTRATÉGIA DE DESENVOLVIMENTO DE SOFTWARE.
-E um modelo conceitual voltado delimitacao de responsabilidades entre camadas fornecendo baixo acoplamento entre classes, 
-facilidade de manutencao e flexibilidade de implementacoes.
+É um modelo conceitual voltado delimitação de responsabilidades entre camadas fornecendo baixo acoplamento entre classes, 
+facilidade de manutenção e flexibilidade de implementações.
 
 2) EXPLIQUE COM SUAS PALAVRAS O QUE É E COMO FUNCIONA UMA ARQUITETURA BASEADA EM MICROSERVICES. EXPLIQUE GANHOS COM ESTE MODELO E DESAFIOS EM SUA IMPLEMENTAÇÃO.
-Arquitetura de microservice basea-se na divisao de modulos em pequenos servicos/funcionalidades.
+Arquitetura de microservice basea-se na divisão de modulos em pequenos servicos/funcionalidades.
 Este padrao tras diversos beneficios tais como:
 -Startup da aplicacao mais rapido.
 -Manutencoes nao geram indisponibilidade 100% do sistema.
@@ -11,12 +11,12 @@ Este padrao tras diversos beneficios tais como:
 -Divisao de modulos em pequenos grupos de funcionalidades.
 -Otimizacao de pools do iis com a geracao de multiplos deploys. 
 
--Um grande desafio na implementacao de microservice seria quebrar uma estrutura monolitica em partes sem que o sistema perda suas caracteristicas.
+-Um grande desafio na implementacao de microservice seria quebrar uma estrutura monolítica em partes sem que o sistema perda suas caracteristicas.
 
 3) EXPLIQUE QUAL A DIFERENÇA ENTRE COMUNICAÇÃO SINCRONA E ASSINCRONA E QUAL O MELHOR CENÁRIO PARA UTILIZAR UMA OU OUTRA.
-Comunicacao sincrona e basicamente uma troca de mensagens em tempo real, enquanto que a assincrona ocorre de forma desconectada do tempo.
-Um cenario para implementacao de comunicacao assincrona seria um e-commerce como podemos observar alguns exemplos:
+Comunicação síncrona é basicamente uma troca de mensagens em tempo real, enquanto que a assíncrona ocorre de forma desconectada do tempo.
+Um cenário para implementação de comunicação assíncrona seria um e-commerce como podemos observar alguns exemplos:
 Podemos adicionar um produto ao carrinho, mas nao temos um prazo para finalizar a compra.
 Ao finalizar a compra ficamos aguardando os status da compra: Compra realizada, Aguardando pagamento, pagamento realizado, ..., Pedido Entregue.
 
-Um Cenario para implementacao de comunicacao assincrona seria um sistema de video conferencia.
+Um Cenario para implementacao de comunicação assíncrona seria um sistema de vídeo conferência.
